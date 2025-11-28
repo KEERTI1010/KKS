@@ -63,8 +63,44 @@ let booleanIsLoggened = Boolean(isLoggedIn);
 
 let someNumber = 43
 let stringNumber = String(someNumber);
-console.log(stringNumber);//43
-console.log(typeof stringNumber);//string
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 //43 => "43"
 
 
+
+//*************************Operations************************//
+
+let value = 3;  
+let negValue = -value;
+//console.log(negValue); //-3
+
+console.log(2+2); //4
+console.log("2"+"2"); //"2"+"2" => "22"
+console.log("2"+2); //"2"+2 => "22"
+console.log(2+"2"); //2+"2" => "22" 
+console.log("1"+2+2 ); //"1"+2+2 => "122"
+console.log(2+2+"1" ); //2+2+"1" => "41"
+
+let str1 = "Hello"
+let str2 = "World"
+let str3=str1+str2
+console.log(str3); //HelloWorld
+
+
+console.log(true)//true
+console.log(false)//false
+console.log(!true)//false
+console.log(!false)//true
+console.log(!!true)//true
+console.log(!!false)//false
+
+
+
+console.log(+true); //1
+console.log(+"");//0
+
+
+let gamescore = "100"
+gamescore++;//=  ++gamescoren
+console.log(gamescore);
