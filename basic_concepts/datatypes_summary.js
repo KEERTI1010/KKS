@@ -14,7 +14,7 @@
    const isLoggedIn = false
 
    //4.Undefined - not assigned - 
-   Let userEmail;
+    userEmail;
 
    //5.Null - empty -
    const outsideTemp = null

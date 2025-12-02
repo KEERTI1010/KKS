@@ -61,6 +61,10 @@ console.log(url.replace("login","signup"));//https://keerti.com/signup
 console.log(url.includes('keerti'));//true
 console.log(url.includes('kks'));//false
 
+//SPLIT
+
+console.log(gameName.split(  ));
+
 
 
 
