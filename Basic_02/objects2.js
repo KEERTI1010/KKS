@@ -37,3 +37,38 @@
  console.log(Object.values(tinderUser))// Expected output:  ["1234", "kks"]
  console.log(Object.entries(tinderUser))// Expected output: [ ["id", "1234"],  ["name", "kks"]] 
  console.log(tinderUser.hasOwnProperty("name"))// Expected output: true
+
+
+
+
+ //object destructuring
+const course ={
+  courseName:"JS Bootcamp",
+  price:999,
+  courseInstructor:"kks Shet"
+}   
+
+const {courseName}=course
+console.log(courseName) // Expected output: JS Bootcamp
+
+//OR////WE CAN DESRTRUCTURE AND RENAME IT////
+
+
+const {courseInstructor:instructor}=course
+console.log(instructor) // Expected output: kks Shet
+
+//APIS
+
+{
+    "name"="kks",
+    "sister"="mks",
+    "brother"="tks"
+}
+
+//here above is json format.. were both key and values are strings...and use to transfer data between server and client
+
+[
+    {},
+    {},
+    {}
+]
